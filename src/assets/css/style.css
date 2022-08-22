@@ -1,0 +1,27 @@
+header,
+main,
+footer {
+    padding-left: 0 !important;
+}
+
+@media only screen and (min-width : 600px) {
+    .main {
+        padding-left: 300px !important;
+    }
+
+    .brand-logo {
+        padding-left: 30px !important;
+    }
+}
+
+.brand-logo {
+    display: inline-block;
+    height: 100%;
+   
+}
+
+.brand-logo>img {
+    max-height: 64px!important;
+    padding: 15px 0!important;
+    vertical-align: middle;
+}
