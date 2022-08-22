@@ -1,15 +1,11 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../views/home/HomeView.vue'
 import MainLayout from '@/layout/MainLayout.vue'
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
+  
   {
     path: '/about',
     name: 'about',
@@ -22,7 +18,10 @@ const routes: Array<RouteConfig> = [
     path:'/dashboard',
     component: MainLayout,
     children:[
-      
+      {
+        path:'home',
+        component: HomeView
+      }
     ]
   }
 ]
