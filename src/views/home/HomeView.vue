@@ -13,17 +13,22 @@
   <div class="view-content">
     <div id="test1">dsdsds</div>
     <div id="test2">
-      <div class="row">
-        <div class="col s6">
-          <div class="stati turquoise left">
-          <i class="material-icons md-55">group</i>
+      <div class="bootstrap-wrapper">
+
+  <div class="row">
+     <div class="col-md-3">
+        <div class="stati turquoise ">
+          <i class="icon-exclamation icons"></i>
           <div>
-            <b>1</b>
-            <span>.turquoise left</span>
+            <b>0</b>
+            <span>.turquoise</span>
           </div> 
         </div>
-        </div>
-      </div>
+      </div> 
+  </div>
+ 
+</div>
+      
 
     </div>
 
