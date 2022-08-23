@@ -16,14 +16,8 @@
       <div class="bootstrap-wrapper">
 
   <div class="row">
-     <div class="col-md-3">
-        <div class="stati turquoise ">
-          <i class="icon-exclamation icons"></i>
-          <div>
-            <b>0</b>
-            <span>.turquoise</span>
-          </div> 
-        </div>
+     <div class="col-md-3"> 
+          <StatsCard></StatsCard>
       </div> 
   </div>
  
@@ -39,7 +33,7 @@
 </template>
 
 <script>
- 
+    import StatsCard from '@/ui/components/StatsCard.vue'
     export default {
         name:'HomeView',
         mounted() {
@@ -48,10 +42,13 @@
            // eslint-disable-next-line no-undef
          M.Tabs.init(el, {'swipeable':true});
 
+    },
+    components:{
+      StatsCard
     }
     }
 </script>
 
-<style lang="scss" scoped>
+<style   scoped>
 
 </style>
