@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import HomeView from '../views/home/HomeView.vue'
 import MainLayout from '@/layout/MainLayout.vue'
+import BaseRoute from '@/layout/base/BaseRoute.vue'
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
@@ -21,6 +22,16 @@ const routes: Array<RouteConfig> = [
       {
         path:'home',
         component: HomeView
+      },
+      {
+        path:'alumnos',
+        component: BaseRoute,
+        children:[
+          {
+            path:'',
+            component:()=>import('@/views/alumnos/AlumnosList.vue')
+          }
+        ]
       }
     ]
   }

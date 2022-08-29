@@ -1,0 +1,92 @@
+[
+    {
+        "name": "inicio",
+        "icon": "home",
+        "link": "home",
+        "children": []
+    },
+    {
+        "name": "Gestión de Alumnos",
+        "icon": "person",
+        "link": "",
+        "children": [
+            {
+                "name": "Datos Personales",
+                "link": "alumnos"
+            },
+            {
+                "name": "Matriculacion",
+                "link": "alumnos"
+            }
+        ]
+    },
+    {
+        "name": "Gestión de Agentes",
+        "icon": "contacts",
+        "link": "",
+        "children": [
+            {
+                "name": "Datos Personales",
+                "link": "agentes"
+            }
+        ]
+    },
+    {
+        "name": "Cursos",
+        "icon": "archive",
+        "link": "cursos",
+        "children": [
+            
+        ]
+    },
+    {
+        "name": "Cargos",
+        "icon": "assignment",
+        "link": "cursos",
+        "children": [
+            
+        ]
+    },
+    {
+        "name": "Calificaciones",
+        "icon": "book",
+        "link": "cursos",
+        "children": [
+            
+        ]
+    },
+    {
+        "name": "Usuarios",
+        "icon": "people",
+        "link": "people",
+        "children": [
+            {
+                "name": "Lista de Usuarios",
+                "link": "alumnos"
+            },
+            {
+                "name": "Niveles de Acceso",
+                "link": "alumnos"
+            }
+        ]
+    },
+    {
+        "name": "Configuracion",
+        "icon": "settings",
+        "link": "cursos",
+        "children": [
+            {
+                "name": "Datos de Institución",
+                "link": "alumnos"
+            }
+        ]
+    },
+    {
+        "name": "Reportes",
+        "icon": "print",
+        "link": "cursos",
+        "children": [
+            
+        ]
+    }
+]
